@@ -159,7 +159,7 @@ function SinglePage() {
               item.cost > 368 && item.cost < 385 && "bg-[#8B0000]/70"
 
             )}>
-              <p>{`${item.day} -> ${item.day + 6}`}</p>
+              <p>{`${item.day}`}</p>
               <p>{Math.floor(item.ticket)}</p>
               <p className="hidden lg:block">{item.skipp}</p>
               <p>{Math.floor(item.cost)}</p>
