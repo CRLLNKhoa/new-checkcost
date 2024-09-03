@@ -148,15 +148,15 @@ function SinglePage() {
                 item.cost < 207 &&
                 "bg-[#00FF00]/70 text-black",
               item.cost > 207 && item.cost < 230 && "bg-[#008000]/70",
-              item.cost > 230 &&
+              item.cost >= 230 &&
                 item.cost < 253 &&
                 "bg-[#FFD700]/70 text-black",
-              item.cost > 253 && item.cost < 276 && "bg-[#FFA500]/70",
-              item.cost > 276 && item.cost < 299 && "bg-[#FF8C00]/70",
-              item.cost > 299 && item.cost < 322 && "bg-[#FF6347]/70",
-              item.cost > 322 && item.cost < 345 && "bg-[#FF0000]/70",
-              item.cost > 345 && item.cost < 368 && "bg-[#DC143C]/70",
-              item.cost > 368 && item.cost < 385 && "bg-[#8B0000]/70"
+              item.cost >= 253 && item.cost < 276 && "bg-[#FFA500]/70",
+              item.cost >= 276 && item.cost < 299 && "bg-[#FF8C00]/70",
+              item.cost >= 299 && item.cost < 322 && "bg-[#FF6347]/70",
+              item.cost >= 322 && item.cost < 345 && "bg-[#FF0000]/70",
+              item.cost >= 345 && item.cost < 368 && "bg-[#DC143C]/70",
+              item.cost >= 368 && item.cost < 385 && "bg-[#8B0000]/70"
 
             )}>
               <p>{`${item.day}`}</p>
