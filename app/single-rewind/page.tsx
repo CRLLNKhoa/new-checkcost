@@ -58,7 +58,7 @@ function SinglePage() {
         >
           single rewind
         </h1>
-        <p>Giá trị cost càng thấp thời gian rewind càng ngắn.</p>
+        <p className="text-center">Giá trị cost càng thấp thời gian rewind càng ngắn.</p>
         <div className="flex flex-col mt-8">
           <div className="grid grid-cols-2 gap-4">
             <div className="border-2 border-[#3B5695] rounded-md p-1 pt-4 relative">
@@ -205,7 +205,7 @@ function SinglePage() {
           )}
         </div>
       </div>
-      <Capcha />
+      {/* <Capcha /> */}
     </>
   );
 }
