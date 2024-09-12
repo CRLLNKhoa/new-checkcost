@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-function About() {
+function About({visits}:{visits:number}) {
     const [year,setYear] = useState(new Date().getFullYear())
   return (
     <div className="flex flex-col w-full p-4 gap-12 mt-20">
@@ -28,8 +28,8 @@ function About() {
             shadow-lg bg-white rounded-lg flex items-center justify-center">
                 <img src="/gr.svg" alt="icon" className="size-13" />
             </div>
-            <h3 className="text-[#3B5695] font-bold text-3xl mb-1">{year-2023}+</h3>
-            <p>Tổng số người truy cập</p>
+            <h3 className="text-[#3B5695] font-bold text-3xl mb-1">{visits}</h3>
+            <p>Tổng số lượt truy cập</p>
         </div>
         <div className="relative border-2 rounded-lg flex items-start 
         justify-start px-4 flex-col pt-10 pb-2">
