@@ -169,7 +169,7 @@ function SinglePage() {
           </div>
           <div className="flex flex-col mt-4 rounded-md border-[#3B5695] overflow-hidden">
             {temp.map((item, index) => (
-              <div
+              <div key={index}
                 className={cn(
                   "grid grid-cols-3 lg:grid-cols-4 py-2 text-center text-black",
                   item.cost >= 161 &&

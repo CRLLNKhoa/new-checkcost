@@ -22,6 +22,12 @@ function Menu() {
         <Link href={"/time-rewind"} className="border-2 hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
             <h2 className="text-md text-[#3B5695] font-semibold">Time Rewind</h2>
         </Link>
+        <Link href={"/year-100"} className="border-2 hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
+            <h2 className="text-md text-[#3B5695] font-semibold">Câu trả lời year 100</h2>
+        </Link>
+        <Link href={"/time-nm"} className="border-2 hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
+            <h2 className="text-md text-[#3B5695] font-semibold">Thời gian Nightmare</h2>
+        </Link>
       </div>
     </div>
   );
