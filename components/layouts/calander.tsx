@@ -50,8 +50,8 @@ function Calendar() {
   
 
   return (
-    <div className="flex flex-col w-full p-4 gap-4 mt-12">
-      <h1
+    <div  className="flex flex-col w-full p-4 gap-4 mt-12">
+      <h1 id="banner"
         className="text-xl uppercase font-bold text-center
         bg-gradient-to-r from-[#3B5695] to-[#779AEB] 
         bg-clip-text text-transparent"
@@ -62,7 +62,7 @@ function Calendar() {
       <div className="flex items-center justify-center mt-6">
         <div className="max-w-lg relative">
           <img className="w-full h-full" src="./lc.png" alt="img" />
-          <div className={cn("rounded-full border-[#3B5695] border-[8px] w-[72px] h-[72px] absolute -translate-x-1/2",
+          <div className={cn("rounded-full border-[#3B5695] border-[8px] w-[52px] h-[52px]  lg:w-[72px] lg:h-[72px] absolute -translate-x-1/2",
             currentDefault === 0 && "top-[11%] left-[34%]" ,
             currentDefault === 1 && "top-10 left-[50%]" ,
             currentDefault === 2 && "top-[11%] left-[65%]" ,
@@ -78,10 +78,10 @@ function Calendar() {
             currentDefault === 12 && "top-[37%] left-[14%]" ,
             currentDefault === 13 && "top-[21%] left-[18%]" ,
           )}></div>
-          <div className={cn("rounded-full border-[#3B5695] border-[8px] w-[62px] h-[62px] absolute -translate-x-1/2",
-            currentFate === 0 && "top-[53%] left-[37%]" ,
+          <div className={cn("rounded-full border-[#3B5695] border-[8px] h-[42px] w-[42px] lg:w-[62px] lg:h-[62px] absolute -translate-x-1/2",
+            currentFate === 0 && "top-[53%] left-[36%]" ,
             currentFate === 2 && "top-[53%] left-[63%]",
-            currentFate === 1 && "top-[53%] left-[63%]"
+            currentFate === 1 && "top-[33%] left-[49%]"
           )}></div>
         </div>
       </div>

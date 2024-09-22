@@ -28,6 +28,9 @@ function Menu() {
         <Link href={"/time-nm"} className="border-2 bg-[#3B5695] hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
             <h2 className="text-md text-white font-semibold">Thời gian Nightmare</h2>
         </Link>
+        <a href={"#banner"} className="border-2 bg-[#3B5695] hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
+            <h2 className="text-md text-white font-semibold">Banner</h2>
+        </a>
       </div>
     </div>
   );
