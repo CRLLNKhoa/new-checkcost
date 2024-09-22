@@ -1,6 +1,7 @@
 "use client"
 import About from "@/components/layouts/about";
 import Banner from "@/components/layouts/banner";
+import Calendar from "@/components/layouts/calander";
 import Download from "@/components/layouts/download";
 import GiveAway from "@/components/layouts/giveaway";
 import Guide from "@/components/layouts/guide";
@@ -18,6 +19,7 @@ export default function Home() {
       <Menu />
       <ListTeam />
       <Download />
+      <Calendar />
       <About visits={visitCount} />
     </main>
   );

@@ -13,20 +13,20 @@ function Menu() {
         Các tiện ích đã được phát triển
       </h1>
       <div className="grid lg:grid-cols-3 gap-4">
-        <Link href={"/single-rewind"} className="border-2 hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
-            <h2 className="text-md text-[#3B5695] font-semibold">Single Rewind</h2>
+        <Link href={"/single-rewind"} className="border-2 bg-[#3B5695] hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
+            <h2 className="text-md text-white font-semibold">Single Rewind</h2>
         </Link>
-        <Link href={"/double-rewind"} className="border-2 hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
-          <h2 className="text-md text-[#3B5695] font-semibold">Double Rewind</h2>
+        <Link href={"/double-rewind"} className="border-2 bg-[#3B5695] hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
+          <h2 className="text-md text-white font-semibold">Double Rewind</h2>
         </Link>
-        <Link href={"/time-rewind"} className="border-2 hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
-            <h2 className="text-md text-[#3B5695] font-semibold">Time Rewind</h2>
+        <Link href={"/time-rewind"} className="border-2 bg-[#3B5695] hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
+            <h2 className="text-md text-white font-semibold">Time Rewind</h2>
         </Link>
-        <Link href={"/year-100"} className="border-2 hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
-            <h2 className="text-md text-[#3B5695] font-semibold">Câu trả lời year 100</h2>
+        <Link href={"/year-100"} className="border-2 bg-[#3B5695] hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
+            <h2 className="text-md text-white font-semibold">Câu trả lời year 100</h2>
         </Link>
-        <Link href={"/time-nm"} className="border-2 hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
-            <h2 className="text-md text-[#3B5695] font-semibold">Thời gian Nightmare</h2>
+        <Link href={"/time-nm"} className="border-2 bg-[#3B5695] hover:border-[#3B5695] cursor-pointer flex items-center justify-center p-4 rounded-md">
+            <h2 className="text-md text-white font-semibold">Thời gian Nightmare</h2>
         </Link>
       </div>
     </div>
